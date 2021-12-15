@@ -1,29 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\saran\\Desktop\\HundurWEB\\HundurWEB\\HundurWEB.csproj": {}
+    "C:\\Users\\saran\\Source\\Repos\\HundurWeb-1.1.0\\HundurWEB\\HundurWEB.csproj": {}
   },
   "projects": {
-    "C:\\Users\\saran\\Desktop\\HundurWEB\\HundurWEB\\HundurWEB.csproj": {
+    "C:\\Users\\saran\\Source\\Repos\\HundurWeb-1.1.0\\HundurWEB\\HundurWEB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\saran\\Desktop\\HundurWEB\\HundurWEB\\HundurWEB.csproj",
+        "projectUniqueName": "C:\\Users\\saran\\Source\\Repos\\HundurWeb-1.1.0\\HundurWEB\\HundurWEB.csproj",
         "projectName": "HundurWEB",
-        "projectPath": "C:\\Users\\saran\\Desktop\\HundurWEB\\HundurWEB\\HundurWEB.csproj",
+        "projectPath": "C:\\Users\\saran\\Source\\Repos\\HundurWeb-1.1.0\\HundurWEB\\HundurWEB.csproj",
         "packagesPath": "C:\\Users\\saran\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\saran\\Desktop\\HundurWEB\\HundurWEB\\obj\\",
+        "outputPath": "C:\\Users\\saran\\Source\\Repos\\HundurWeb-1.1.0\\HundurWEB\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\saran\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\DevExpress 20.1\\DevExtreme\\System\\DevExtreme\\Bin\\AspNetCore": {},
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -42,6 +49,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "BuildBundlerMinifier": {
+              "target": "Package",
+              "version": "[3.2.449, )"
+            },
             "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
               "target": "Package",
               "version": "[5.0.5, )"
@@ -69,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

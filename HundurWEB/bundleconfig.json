@@ -1,0 +1,36 @@
+[
+  {
+    "outputFileName": "wwwroot/css/vendor.css",
+    "inputFiles": [
+      "wwwroot/css/bootstrap.min.css",
+      "wwwroot/css/animate.css",
+      "wwwroot/css/font-awesome.css",
+      "wwwroot/css/flaticon.css",
+      "wwwroot/css/slick.css",
+      "wwwroot/css/prettyPhoto.css",
+      "wwwroot/css/shortcodes.css",
+      "wwwroot/css/main.css",
+      "wwwroot/css/megamenu.css",
+      "wwwroot/css/responsive.css"
+
+
+    ],
+    "minify": {
+      "enabled": false
+    }
+  },  
+  {
+    "outputFileName": "wwwroot/js/vendor.js",
+    "inputFiles": [
+          "wwwroot/assets/js/popper.min.js",
+      "wwwroot/assets/js/bootstrap.min.js",
+      "wwwroot/assets/js/jquery.slimscroll.min.js",
+      "wwwroot/plugins/raphael/raphael.min.js",
+      "wwwroot/assets/js/app.js",
+      "wwwroot/assets/js/datetime.1-1.js"
+    ],
+    "minify": {
+      "enabled": false
+    }
+  }
+]

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "e0qYlYLlGk2CvMxVLWPo0OcyqhViKE9SsfgnCafpab9WmvB4jH0+ZPFpqu6f6U9Xsy/5fqBSOvknV7KXPvc51Q==",
+  "dgSpecHash": "0PAXnOhWN8oya0N/FE+2t+2SDknEsaaMPorCi5ojC2PDCpgmtqB15Iz6yDF2g1wFv3UQoOH0VVMLq8RD8uOMEw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\saran\\Desktop\\HundurWEB\\HundurWEB\\HundurWEB.csproj",
+  "projectFilePath": "C:\\Users\\saran\\Source\\Repos\\HundurWeb-1.1.0\\HundurWEB\\HundurWEB.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\saran\\.nuget\\packages\\buildbundlerminifier\\3.2.449\\buildbundlerminifier.3.2.449.nupkg.sha512",
     "C:\\Users\\saran\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
     "C:\\Users\\saran\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\saran\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\5.0.5\\microsoft.aspnetcore.mvc.razor.extensions.5.0.5.nupkg.sha512",
