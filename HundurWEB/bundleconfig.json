@@ -22,12 +22,18 @@
   {
     "outputFileName": "wwwroot/js/vendor.js",
     "inputFiles": [
-          "wwwroot/assets/js/popper.min.js",
-      "wwwroot/assets/js/bootstrap.min.js",
-      "wwwroot/assets/js/jquery.slimscroll.min.js",
-      "wwwroot/plugins/raphael/raphael.min.js",
-      "wwwroot/assets/js/app.js",
-      "wwwroot/assets/js/datetime.1-1.js"
+      "wwwroot/js/jquery-3.6.0.min.js",
+      "wwwroot/js/jquery-migrate-3.3.2.min.js",
+      "wwwroot/js/bootstrap.min.js",
+      "wwwroot/js/jquery.easing.js",
+      "wwwroot/js/jquery-waypoints.js",
+      "wwwroot/js/jquery-validate.js",
+      "wwwroot/js/jquery.prettyPhoto.js",
+      "wwwroot/js/slick.min.js",
+      "wwwroot/js/numinate.min.js",
+      "wwwroot/js/imagesloaded.min.js",
+      "wwwroot/js/jquery-isotope.js",
+      "wwwroot/js/main.js"
     ],
     "minify": {
       "enabled": false
