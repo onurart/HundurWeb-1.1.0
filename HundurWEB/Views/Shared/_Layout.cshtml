@@ -1,0 +1,129 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="Asal Yazılım A.Ş.">
+    <meta name="description" content="Asal Yazılım A.Ş.">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ASAL YAZILIM A.Ş </title>
+    <link rel="shortcut icon" href="@Url.Content("~/images/favicon.png")">
+    <link rel="stylesheet" type="text/css" href="~/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="~/css/animate.css">
+    <link rel="stylesheet" type="text/css" href="~/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="~/css/flaticon.css">
+    <link rel="stylesheet" type="text/css" href="~/css/themify-icons.css">
+    <link rel="stylesheet" type="text/css" href="~/css/slick.css">
+    <link rel="stylesheet" type="text/css" href="~/css/prettyPhoto.css">
+    <link rel="stylesheet" type="text/css" href="~/css/shortcodes.css">
+    <link rel="stylesheet" type="text/css" href="~/css/main.css">
+    <link rel="stylesheet" type="text/css" href="~/css/megamenu.css">
+    <link rel="stylesheet" type="text/css" href="~/css/responsive.css">
+
+</head>
+<body>
+    <div class="page">
+        <div id="preloader" class="blobs-wrapper">
+            <div class="ttm-bgcolor-skincolor loader-blob"></div>
+        </div>
+        <!-- preloader end -->
+        <!--header start-->
+        <header id="masthead" class="header ttm-header-style-03">
+            <div id="site-header-menu" class="site-header-menu">
+                <div class="site-header-menu-inner ttm-stickable-header">
+                    <div class="container">
+                        <div class="d-xl-flex flex-xl-row align-items-xl-center justify-content-xl-between">
+                            <!-- site-branding -->
+                            <div class="site-branding ">
+                                <a class="home-link" href="@Url.Action("Index","Home")" title="asal" rel="home">
+                                    <img id="logo-img" class="img-fluid auto_size logo-img" height="76" width="296" src="@Url.Content("~/images/logo-whiteasal.png")" alt="logo-img">
+                                </a>
+                            </div><!-- site-branding end -->
+                            <!--site-navigation -->
+                            <div id="site-navigation" class="site-navigation">
+                                <div class="btn-show-menu-mobile menubar menubar--squeeze">
+                                    <span class="menubar-box">
+                                        <span class="menubar-inner"></span>
+                                    </span>
+                                </div>
+                                <!-- menu -->
+                                <nav class="main-menu menu-mobile d-xl-flex align-items-center justify-content-end" id="menu">
+                                    <ul class="menu">
+                                        <li class="mega-menu-item active"><a href="@Url.Action("Index","Home")" class="mega-menu-link">Ana Sayfa</a></li>
+                                        <li class="mega-menu-item"><a href="@Url.Action("Projectmanagement","Services")" class="mega-menu-link"> Hizmetler</a><li>
+                                        <li class="mega-menu-item ">
+                                            <a href="@Url.Action("Index","Sector")" class="mega-menu-link">Sektörler</a>
+                                            
+                                        </li>                               
+                                        @*<li class="mega-menu-item">
+                                            <a href="#" class="mega-menu-link"> İş ortakları</a>
+                                            <ul class="mega-submenu">
+                                                <li><a href="strategy-planning.html">Strategy &amp; Planning</a></li>
+                                                <li><a href="audit-assurance.html">Audit &amp; Assurance</a></li>
+                                                <li><a href="finance-restructuring.html">Finance &amp; Restructuring</a></li>
+                                                <li><a href="advance-report.html">Advance Report</a></li>
+                                                <li><a href="bussiness-gowth.html">Bussiness Gowth</a></li>
+                                                <li><a href="smart-self-services.html">Smart Self Services</a></li>
+                                            </ul>
+                                        </li>*@
+                                        <li class="mega-menu-item">
+                                            <a href="#" class="mega-menu-link">E-Çözümler </a>
+                                            <ul class="mega-submenu">
+                                                <li><a href="@Url.Action("Eİrsaliye","ELedger")">E-İrsaliye</a></li>
+                                                <li><a href="@Url.Action("Einvoice","ELedger")">E-Fatura</a></li>
+                                                <li><a href="@Url.Action("Index","ELedger")">E-Defter</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="mega-menu-item">
+                                            <a href="@Url.Action("Index","Contact")">İletişim</a>
+                                        </li>
+                                    </ul>
+
+                                </nav><!-- menu end -->
+                                <div class="top_bar ttm-textcolor-white">
+                                    <div class="top_bar_contact_item">
+                                        <span class="ttm-textcolor-skincolor"> </span><a href="@Url.Action("Index","Corporate")">KURUMSAL</a>
+                                    </div>
+                                    <div class="top_bar_contact_item">
+                                        <span class="ttm-textcolor-skincolor"></span><a href="@Url.Action("Sustainability","Corporate")">SÜRDÜRÜLEBİLİRLİK</a>
+                                    </div>
+                                    <div class="top_bar_contact_item">
+                                        <span class="ttm-textcolor-skincolor"></span><a href="@Url.Action("HumanResources", "Corporate")">İNSAN KAYNAKLARI</a>
+                                    </div>
+                                    @*<div class="top_bar_contact_item">
+                                        <span class="ttm-textcolor-skincolor"></span>BLOG
+                                    </div>*@
+                                </div>
+
+                            </div><!-- site-navigation end-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header><!--header end-->
+
+        <div class="">
+            <main role="main" class="pb-3">
+                @RenderBody()
+            </main>
+        </div>
+        @await Html.PartialAsync("_footerPartialView")
+        <a id="totop" href="#top">
+            <i class="fa fa-angle-up"></i>
+        </a>
+    </div>
+    <script src="@Url.Content("~/js/jquery-3.6.0.min.js")"></script>
+    <script src="~/js/jquery-migrate-3.3.2.min.js"></script>
+    <script src="~/js/bootstrap.min.js"></script>
+    <script src="~/js/jquery.easing.js"></script>
+    <script src="~/js/jquery-waypoints.js"></script>
+    <script src="~/js/jquery-validate.js"></script>
+    <script src="~/js/jquery.prettyPhoto.js"></script>
+    <script src="~/js/slick.min.js"></script>
+    <script src="~/js/numinate.min.js"></script>
+    <script src="~/js/imagesloaded.min.js"></script>
+    <script src="~/js/jquery-isotope.js"></script>
+    <script src="~/js/main.js"></script>
+</body>
+</html>

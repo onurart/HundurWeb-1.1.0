@@ -1,0 +1,81 @@
+﻿
+@{
+    ViewData["Title"] = "Einvoice";
+}
+
+<div class="ttm-page-title-row">
+    <div class="ttm-page-title-row-inner ttm-bgcolor-darkgrey">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-12">
+                    <div class="page-title-heading">
+                        <h2 class="title">E-FATURA</h2>
+                    </div>
+                    <div class="breadcrumb-wrapper">
+                        <span>
+                            <i class="ti ti-home margin_right1"></i>
+                            <a title="Homepage" href="@Url.Action("Index","Home")">ANA SAYFA</a>
+                        </span>
+                        <span>E-FATURA</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="site-main">
+    <div class="ttm-row sidebar ttm-sidebar-left ttm-bgcolor-white overflow-hidden clearfix">
+        <div class="container">
+            <!-- row -->
+            <div class="row">
+                <div class="col-lg-4 widget-area sidebar-left ttm-col-bgcolor-yes ttm-bg ttm-left-span ttm-bgcolor-grey mt_80 padding_top80 mb_80 padding_bottom80 res-991-margin_top0 res-991-padding_top0">
+                    <div class="ttm-col-wrapper-bg-layer ttm-bg-layer"></div>
+                    <aside class="widget widget-nav-menu with-title">
+                        <h3 class="widget-title">E-Çözümler</h3>
+                        <ul>
+                            <li><a href="@Url.Action("Eİrsaliye","ELedger")">E-İrsaliye</a></li>
+                            <li><a href="@Url.Action("Einvoice","ELedger")">E-Fatura</a></li>
+                            <li><a href="@Url.Action("Index","ELedger")">E-Defter</a></li>
+                        </ul>
+                    </aside>
+                    <aside class="widget contact-widget with-title">
+                        <h3 class="widget-title"></h3>
+                        <ul class="contact-widget-wrapper">
+                            <li><i class="ttm-textcolor-skincolor ti ti-email"></i><a href="mailto:info@asal.com.tr" target="_blank">info@asal.com.tr</a></li>
+                            <li><i class="ttm-textcolor-skincolor ti ti-mobile"></i>0 532 598 94 42</li>
+                            <li><i class="ttm-textcolor-skincolor ti ti-location-pink"></i>Merkez Mah. Şamlı Sokak Ergül Çakıcı İş Merkezi No: 27 /42 Avcılar / İstanbul</li>
+                        </ul>
+                    </aside>
+                </div>
+                <div class="col-lg-8 content-area">
+                    <div class="ttm-service-single-content-area">
+                        <div class="ttm-featured-wrapper margin_bottom40">
+                            <img class="img-fluid" src="@Url.Content("~/images/services/efatura.png")" alt="" height="100%" width="100%">
+                        </div>
+                        <div class="ttm-service-description">
+                            <h3>E-Fatura</h3>
+                            <p>
+                                Gelirler İdaresi Başkanlığının 2013 Yılında devreye soktuğu günden güne kapsamı genişleyerek devam eden ve sonun da bütün mükellefleri kapsayan Kağıt faturaları dijital ortama taşıyan sistemdir.Sistemin Yapısı GIB aracılığı ile işlemektedir.<br /><br />
+                                E-Fatura Sistemini Kullanmanın 3 şekli vardır. Bu sistemi tercih etmek tamamen bağımsız ve Mükellefin tercihine bağlıdır.<br /><br />
+                                Sistem  GIB Portal Yönetimi : Kullanıcılar düzenlemiş oldukları E-Faturaları Direk GIB’ in vermiş olduğu portal üzerinde de düzenleyip gönderimini sağlayabilirler<br /><br />  
+                                Sitem Özel Entegratör : Özel Entegratör ise Mükelleflerin Kendi Ticari programlarında düzenlemiş oldukları faturaların Özel entegratör üzerinde GIB’e ulaştırdıkları bir sistemdir. Burada 1.Sisteme göre  avantajı özel  Entegratör firmalarının aynı zaman E-Faturaları Saklama zorunluğunu da Mükellefin üzerinden almasıdır<br /><br />
+                                Sistem  E-Fatura Sunucu : Bu Sistem Daha yüksek sayıda E-Fatura düzenleyen Mükelleflerin tercih edebilecekleri bir sistemdir. Sunucu Sisteminde Düzenlenen E-Faturalar GIB’ in şartnamelerine uygun bir şekilde hazırlanmış, Türkiye sınırları içerisinde olan Mükellefe ait bir özel Sunucu üzerinden yapılmasıdır. Düzenlenen E-Faturalar Mükellefin Sunucusu üzerinden GIB’ e ulaştırılmaktadır. <br /><br />
+
+                                Burada aklımıza şu soru gelebilir. Bizim Hangisini Kullanmamız gerekiyor.<br /><br />
+
+                                1.Sistem Küçük Çaplı Aylık E-Fatura sayısı (Gönderilen ve Alınan ) toplam 50’yi geçmiyor ise bu yöntem tercih edilebilir.<br /><br />
+                                2.Sistem ise Orta ölçekli firmalar için daha uygundur. Aylık E-fatura sayısı 50 ila 10.000 arasında olanlar için tavsiye edilebilir.<br /><br />
+                                Son sistem de ise çok sayıda E-Fatura Kesen firmalar için daha uygundur.  Örn: Kargo Firmaları E-Ticaret Firmaları gb.<br /><br />
+                                Yukarıdaki resimde E-Fatura işleyişinin bir özetini görüntülemeye çalıştık.<br /><br />
+                                Birde değinmek istediğimiz bir konu daha var buda kesilen E-Faturanın ya da alınan E-Faturanın bir onay aşması olup olmadığıdır. Eğer ki kestiğiniz E-Faturaların karşı tarafın onayının alınmasını istiyorsanız. Bu durumda Ticari Fatura düzenlemelisiniz. Karşı tarafın onayına bırakılmaksızın E-fatura göndermek istiyorsanız Temel Fatura düzenlemelisiniz. Bu işlemler için tarafların birbirleri ile önceden uzlaşmaları sağlıklı olucaktır.<br /><br />
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- row end -->
+        </div>
+    </div>
+</div>
+
+
